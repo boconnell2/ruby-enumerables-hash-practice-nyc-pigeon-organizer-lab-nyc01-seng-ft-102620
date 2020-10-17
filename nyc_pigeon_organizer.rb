@@ -12,5 +12,5 @@ def nyc_pigeon_organizer(data)
       array[name][k].push(inner_k.to_s)
     end
   end
-  binding.pry 
+  final  
 end
