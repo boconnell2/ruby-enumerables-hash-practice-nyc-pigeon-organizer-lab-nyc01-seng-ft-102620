@@ -9,4 +9,5 @@ def nyc_pigeon_organizer(data)
           pigeon_list[pig_hash[k][v][i]][k] = [v.to_s]
         else 
         pigeon_list{pig_hash[k][v][i]} => :color
+  
 end
