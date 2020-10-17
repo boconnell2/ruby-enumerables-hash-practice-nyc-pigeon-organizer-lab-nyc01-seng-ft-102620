@@ -10,5 +10,6 @@ def nyc_pigeon_organizer(data)
         else 
         pigeon_list{pig_hash[k][v][i]} => :color
   data.each_with_object({}) do |k,v,array|
-    v.each do |inner_k, 
+    v.each do |inner_k,name|
+      
 end
