@@ -17,5 +17,8 @@ def nyc_pigeon_organizer(data)
       if !array[name][k]
         !array[name][k] = []
       end
-      array[name][k].push(inner_k)
+      if inner_k.is_a? String
+        array[name][k].push(inner_k)
+      else
+        array[name][k].push(inner_k.to_s)
 end
