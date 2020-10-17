@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       for i in 0...pig_hash[k][v].size do
         if pigeon_list[pig_hash[k][v][i]] == nil 
           pigeon_list[pig_hash[k][v][i]] => k
-          pigeon_list[pig_hash[k][v][i]][k] = v.
+          pigeon_list[pig_hash[k][v][i]][k] = [v.to_s]
+        else 
         pigeon_list{pig_hash[k][v][i]} => :color
 end
