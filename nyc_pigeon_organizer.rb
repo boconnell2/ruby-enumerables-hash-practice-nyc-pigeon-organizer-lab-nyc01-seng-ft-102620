@@ -13,5 +13,6 @@ def nyc_pigeon_organizer(data)
     v.each do |inner_k,name|
       if !array[name]
         array[name] = {}
-      
+      end
+      if !array[name]
 end
