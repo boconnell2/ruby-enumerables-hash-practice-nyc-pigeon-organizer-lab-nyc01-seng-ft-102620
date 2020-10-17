@@ -3,6 +3,8 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   pig_hash.each do |k,v|
     if k == :color 
-      for i in 0...pig_hash[k][v].size do 
-        pigeon_list{pig_hash[k][v].size[i]} => :color
+      for i in 0...pig_hash[k][v].size do
+        if pigeon_list[pig_hash[k][v][i]] == nil 
+          pigeon_list[pig_hash[k][v][i]] => :color 
+        pigeon_list{pig_hash[k][v][i]} => :color
 end
